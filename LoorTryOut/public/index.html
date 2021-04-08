@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tailwind.css" rel="stylesheet">
+    <title>Loor Try Out</title>
+</head>
+    <body>
+        <main class="bg-loor-dark-900 md:bg-loor-dark-400 text-white px-16 py-12">
+
+            <div class="grid md:grid-cols-2 md:border border-gray-700 px-4 bg-loor-dark-900 rounded flex items-center"> <!-- sign up form -->
+
+                <div class="col-span-1 hidden md:block pr-16 px-10 py-16">
+                    <span class="block text-3xl pb-3">
+                        Sign up for our newsletter
+                    </span>
+                    <p class="text-xs text-gray-300">
+                        Want to hear from us when we add new components? Sign up for our newsletter and we'll email you every time we release a new batch of components.
+                    </p>
+                </div>
+
+                <div class="col-span-1">
+                    <span class="block text-4xl py-6 md:hidden text-center">
+                        Join our newsletter
+                    </span>
+                        <div class="flex flex-row">
+                            <input class="border border-2 border-loor-dark-300 md:border-0 bg-loor-dark-100 md:bg-white flex-grow rounded-xl md:rounded px-4 py-5 md:py-1 md:text-xs mr-2 md:mr-4" type="textfield" placeholder="your@email.com" x-model="email">
+                            <button class=" px-4 md:px-8 py-4 rounded md:rounded-xl md:py-3 bg-loor-gold text-black md:text-xs">Subscribe</button>
+                        </div>
+                    <span class="block text-xs text-gray-500 md:text-gray-300 py-2">
+                        Enter your email to give the boot to cancel culture.
+                    </span>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>
